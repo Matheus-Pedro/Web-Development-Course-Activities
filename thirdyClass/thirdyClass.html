@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terceira Aula</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <style>
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+        .images-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .images-container > div {
+            flex: 1;
+            text-align: center;
+        }
+        .images-container img {
+            border-radius: 100%;
+            width: 200px;
+            height: auto;
+            
+        }
+        .card {
+            background-color: #999999;
+            margin: 10px;
+            border-radius: 30px;
+        }
+    </style>
+    
+</head>
+<body style='background-color: #cccccc; font-family: "Roboto", sans-serif;'>
+    <h1>Terceira Aula</h1>
+    <h2>Filosófos Gregos:</h2>
+    <p>Working with images with img tag to HTML and some CSS styles with Styles to HTML. On this site you can see some Greek philosophers.</p>
+    <div style="font-size: large; font-weight: lighter;" class="images-container">
+        <div class="card">
+            <a href="https://pt.wikipedia.org/wiki/Aristóteles" target="_blank">
+                <h3 style="text-transform: capitalize;">aristoteles</h3>
+                <img src="img/aristoteles.png" alt="aristoteles">
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://pt.wikipedia.org/wiki/Platão" target="_blank">
+                <h3 style="text-transform: capitalize;">platão</h3>
+                <img src="img/platao.png" alt="platao">
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://pt.wikipedia.org/wiki/Sócrates" target="_blank">
+                <h3 style="text-transform: capitalize;">sócrates</h3>
+                <img src="img/socrates.png" alt="socrates">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
